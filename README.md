@@ -1,4 +1,4 @@
-# OCaml L1 - Paris Cité
+# OCaml L1 
 
 Projets et scripts réalisés en **L1 Informatique Fondamentale** pour le fun. Ce dépôt regroupe des exercices pour apprendre l'OCaml, explorer la programmation fonctionnelle et s'amuser avec la récursion.
 
