@@ -25,5 +25,4 @@ module SGF = struct
               | Some sous_chemin -> Some (nom ^ "/" ^ sous_chemin)
               | None -> None
             ) liste
-
 end
