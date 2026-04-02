@@ -1,0 +1,85 @@
+opam-version: "2.0"
+added: [
+  "doc/ppxlib_jane" {"D"}
+  "doc/ppxlib_jane/LICENSE.md" {"F:S1126T1775126866.33"}
+  "doc/ppxlib_jane/README.md" {"F:S1957T1775126866.33"}
+  "lib/ppxlib_jane" {"D"}
+  "lib/ppxlib_jane/META" {"F:S235T1775126866.32"}
+  "lib/ppxlib_jane/ast_builder.ml" {"F:S8742T1775126866.32"}
+  "lib/ppxlib_jane/ast_builder.mli" {"F:S52T1775126866.32"}
+  "lib/ppxlib_jane/ast_builder_intf.ml" {"F:S11197T1775126866.32"}
+  "lib/ppxlib_jane/dune-package" {"F:S4289T1775126866.32"}
+  "lib/ppxlib_jane/jane_asttypes.ml" {"F:S1354T1775126866.32"}
+  "lib/ppxlib_jane/jane_asttypes.mli" {"F:S1989T1775126866.32"}
+  "lib/ppxlib_jane/jane_syntax.ml" {"F:S73661T1775126866.32"}
+  "lib/ppxlib_jane/jane_syntax.mli" {"F:S24634T1775126866.32"}
+  "lib/ppxlib_jane/jane_syntax_parsing.ml" {"F:S32340T1775126866.33"}
+  "lib/ppxlib_jane/jane_syntax_parsing.mli" {"F:S12772T1775126866.33"}
+  "lib/ppxlib_jane/language_extension.ml" {"F:S86T1775126866.33"}
+  "lib/ppxlib_jane/language_extension.mli" {"F:S362T1775126866.33"}
+  "lib/ppxlib_jane/language_extension_kernel.ml" {"F:S3392T1775126866.33"}
+  "lib/ppxlib_jane/language_extension_kernel.mli" {"F:S2355T1775126866.33"}
+  "lib/ppxlib_jane/opam" {"F:S706T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane.a" {"F:S374160T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane.cma" {"F:S551291T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane.cmi" {"F:S593T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane.cmt" {"F:S4352T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane.cmx" {"F:S233T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane.cmxa" {"F:S21795T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane.cmxs" {"F:S342000T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane.ml" {"F:S211T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__.cmi" {"F:S1318T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__.cmt" {"F:S7070T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__.cmx" {"F:S411T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__.ml" {"F:S971T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Ast_builder.cmi" {"F:S3015T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Ast_builder.cmt" {"F:S117508T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Ast_builder.cmti" {"F:S8705T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Ast_builder.cmx" {"F:S9960T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Ast_builder_intf.cmi"
+    {"F:S15345T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Ast_builder_intf.cmt"
+    {"F:S66150T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Ast_builder_intf.cmx"
+    {"F:S2531T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_asttypes.cmi" {"F:S2791T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_asttypes.cmt" {"F:S8524T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_asttypes.cmti"
+    {"F:S11849T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_asttypes.cmx" {"F:S2508T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_syntax.cmi" {"F:S22626T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_syntax.cmt" {"F:S650923T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_syntax.cmti" {"F:S118356T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_syntax.cmx" {"F:S18192T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_syntax_parsing.cmi"
+    {"F:S12488T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_syntax_parsing.cmt"
+    {"F:S254117T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_syntax_parsing.cmti"
+    {"F:S60040T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Jane_syntax_parsing.cmx"
+    {"F:S12240T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Language_extension.cmi"
+    {"F:S2865T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Language_extension.cmt"
+    {"F:S9583T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Language_extension.cmti"
+    {"F:S9057T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Language_extension.cmx"
+    {"F:S4862T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Language_extension_kernel.cmi"
+    {"F:S4964T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Language_extension_kernel.cmt"
+    {"F:S32749T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Language_extension_kernel.cmti"
+    {"F:S22453T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Language_extension_kernel.cmx"
+    {"F:S4623T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Shadow_compiler_distribution.cmi"
+    {"F:S8892T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Shadow_compiler_distribution.cmt"
+    {"F:S46893T1775126866.33"}
+  "lib/ppxlib_jane/ppxlib_jane__Shadow_compiler_distribution.cmx"
+    {"F:S33093T1775126866.33"}
+  "lib/ppxlib_jane/shadow_compiler_distribution.ml" {"F:S1634T1775126866.33"}
+]

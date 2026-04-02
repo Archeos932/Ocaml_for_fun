@@ -1,0 +1,270 @@
+opam-version: "2.0"
+added: [
+  "doc/async_rpc_kernel" {"D"}
+  "doc/async_rpc_kernel/CHANGES.md" {"F:S17987T1775127195.73"}
+  "doc/async_rpc_kernel/LICENSE.md" {"F:S1126T1775127195.73"}
+  "doc/async_rpc_kernel/README.md" {"F:S193T1775127195.73"}
+  "lib/async_rpc_kernel" {"D"}
+  "lib/async_rpc_kernel/META" {"F:S861T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel.a" {"F:S1517024T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel.cma" {"F:S3057389T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel.cmi" {"F:S36388T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel.cmt" {"F:S92507T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel.cmx" {"F:S38647T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel.cmxa" {"F:S508294T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel.cmxs" {"F:S1618072T1775127195.73"}
+  "lib/async_rpc_kernel/async_rpc_kernel.ml" {"F:S998T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__.cmi" {"F:S3455T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__.cmt" {"F:S16855T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__.cmx" {"F:S1042T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__.ml" {"F:S2775T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Connection.cmi"
+    {"F:S34113T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Connection.cmt"
+    {"F:S602226T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Connection.cmti"
+    {"F:S77322T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Connection.cmx"
+    {"F:S39849T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Connection_intf.cmi"
+    {"F:S39285T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Connection_intf.cmt"
+    {"F:S140797T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Connection_intf.cmx"
+    {"F:S19872T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Description.cmi"
+    {"F:S63583T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Description.cmt"
+    {"F:S288609T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Description.cmti"
+    {"F:S185364T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Description.cmx"
+    {"F:S61202T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__How_to_recognise_errors.cmi"
+    {"F:S21210T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__How_to_recognise_errors.cmt"
+    {"F:S61609T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__How_to_recognise_errors.cmti"
+    {"F:S59118T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__How_to_recognise_errors.cmx"
+    {"F:S19914T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Implementation.cmi"
+    {"F:S27412T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Implementation.cmt"
+    {"F:S167564T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Implementation.cmti"
+    {"F:S84886T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Implementation.cmx"
+    {"F:S23143T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Implementation_types.cmi"
+    {"F:S83854T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Implementation_types.cmt"
+    {"F:S264686T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Implementation_types.cmx"
+    {"F:S67123T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Implementations.cmi"
+    {"F:S28141T1775127195.71"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Implementations.cmt"
+    {"F:S623588T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Implementations.cmti"
+    {"F:S89161T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Implementations.cmx"
+    {"F:S35912T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Menu.cmi"
+    {"F:S22856T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Menu.cmt"
+    {"F:S281023T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Menu.cmti"
+    {"F:S80955T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Menu.cmx"
+    {"F:S20300T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Nat0.cmi" {"F:S6190T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Nat0.cmt"
+    {"F:S38936T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Nat0.cmti"
+    {"F:S22871T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Nat0.cmx" {"F:S8322T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__On_exception.cmi"
+    {"F:S20012T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__On_exception.cmt"
+    {"F:S44289T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__On_exception.cmti"
+    {"F:S50046T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__On_exception.cmx"
+    {"F:S19594T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Or_not_authorized.cmi"
+    {"F:S19228T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Or_not_authorized.cmt"
+    {"F:S39769T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Or_not_authorized.cmti"
+    {"F:S49459T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Or_not_authorized.cmx"
+    {"F:S19472T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Persistent_connection.cmi"
+    {"F:S25885T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Persistent_connection.cmt"
+    {"F:S49156T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Persistent_connection.cmti"
+    {"F:S61838T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Persistent_connection.cmx"
+    {"F:S27491T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Pipe_transport.cmi"
+    {"F:S18932T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Pipe_transport.cmt"
+    {"F:S355644T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Pipe_transport.cmti"
+    {"F:S47455T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Pipe_transport.cmx"
+    {"F:S30715T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Protocol.cmi"
+    {"F:S128957T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Protocol.cmt"
+    {"F:S1356050T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Protocol.cmx"
+    {"F:S165362T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Protocol_writer.cmi"
+    {"F:S23595T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Protocol_writer.cmt"
+    {"F:S88242T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Protocol_writer.cmti"
+    {"F:S67012T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Protocol_writer.cmx"
+    {"F:S25767T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc.cmi"
+    {"F:S121629T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc.cmt"
+    {"F:S818410T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc.cmti"
+    {"F:S480916T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc.cmx"
+    {"F:S107135T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_error.cmi"
+    {"F:S24252T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_error.cmt"
+    {"F:S59877T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_error.cmti"
+    {"F:S66905T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_error.cmx"
+    {"F:S46043T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_metadata.cmi"
+    {"F:S18800T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_metadata.cmt"
+    {"F:S36211T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_metadata.cmti"
+    {"F:S48262T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_metadata.cmx"
+    {"F:S19453T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_result.cmi"
+    {"F:S20032T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_result.cmt"
+    {"F:S92336T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_result.cmti"
+    {"F:S51171T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_result.cmx"
+    {"F:S22835T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_shapes.cmi"
+    {"F:S27057T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_shapes.cmt"
+    {"F:S404532T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_shapes.cmti"
+    {"F:S102588T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Rpc_shapes.cmx"
+    {"F:S24631T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Tracing_event.cmi"
+    {"F:S24471T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Tracing_event.cmt"
+    {"F:S148483T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Tracing_event.cmti"
+    {"F:S76697T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Tracing_event.cmx"
+    {"F:S20876T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Transport.cmi"
+    {"F:S24023T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Transport.cmt"
+    {"F:S138259T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Transport.cmti"
+    {"F:S67231T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Transport.cmx"
+    {"F:S26174T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Transport_intf.cmi"
+    {"F:S24978T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Transport_intf.cmt"
+    {"F:S128104T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Transport_intf.cmx"
+    {"F:S20650T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Util.cmi"
+    {"F:S19356T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Util.cmt"
+    {"F:S50895T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Util.cmti"
+    {"F:S47831T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Util.cmx"
+    {"F:S19223T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Versioned_rpc.cmi"
+    {"F:S146079T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Versioned_rpc.cmt"
+    {"F:S1422468T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Versioned_rpc.cmti"
+    {"F:S689926T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Versioned_rpc.cmx"
+    {"F:S46151T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Writer_with_length.cmi"
+    {"F:S5574T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Writer_with_length.cmt"
+    {"F:S49826T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Writer_with_length.cmti"
+    {"F:S20984T1775127195.72"}
+  "lib/async_rpc_kernel/async_rpc_kernel__Writer_with_length.cmx"
+    {"F:S15561T1775127195.72"}
+  "lib/async_rpc_kernel/connection.ml" {"F:S35941T1775127195.72"}
+  "lib/async_rpc_kernel/connection.mli" {"F:S116T1775127195.72"}
+  "lib/async_rpc_kernel/connection_intf.ml" {"F:S13713T1775127195.72"}
+  "lib/async_rpc_kernel/description.ml" {"F:S975T1775127195.72"}
+  "lib/async_rpc_kernel/description.mli" {"F:S532T1775127195.72"}
+  "lib/async_rpc_kernel/dune-package" {"F:S11764T1775127195.72"}
+  "lib/async_rpc_kernel/how_to_recognise_errors.ml" {"F:S2282T1775127195.72"}
+  "lib/async_rpc_kernel/how_to_recognise_errors.mli"
+    {"F:S2703T1775127195.72"}
+  "lib/async_rpc_kernel/implementation.ml" {"F:S8734T1775127195.72"}
+  "lib/async_rpc_kernel/implementation.mli" {"F:S4061T1775127195.72"}
+  "lib/async_rpc_kernel/implementation_types.ml" {"F:S7644T1775127195.72"}
+  "lib/async_rpc_kernel/implementations.ml" {"F:S51727T1775127195.73"}
+  "lib/async_rpc_kernel/implementations.mli" {"F:S4572T1775127195.73"}
+  "lib/async_rpc_kernel/menu.ml" {"F:S10937T1775127195.73"}
+  "lib/async_rpc_kernel/menu.mli" {"F:S3174T1775127195.73"}
+  "lib/async_rpc_kernel/nat0.ml" {"F:S637T1775127195.73"}
+  "lib/async_rpc_kernel/nat0.mli" {"F:S176T1775127195.73"}
+  "lib/async_rpc_kernel/on_exception.ml" {"F:S630T1775127195.73"}
+  "lib/async_rpc_kernel/on_exception.mli" {"F:S301T1775127195.73"}
+  "lib/async_rpc_kernel/opam" {"F:S1196T1775127195.73"}
+  "lib/async_rpc_kernel/or_not_authorized.ml" {"F:S495T1775127195.73"}
+  "lib/async_rpc_kernel/or_not_authorized.mli" {"F:S373T1775127195.73"}
+  "lib/async_rpc_kernel/persistent_connection.ml" {"F:S625T1775127195.73"}
+  "lib/async_rpc_kernel/persistent_connection.mli" {"F:S233T1775127195.73"}
+  "lib/async_rpc_kernel/pipe_transport.ml" {"F:S18326T1775127195.73"}
+  "lib/async_rpc_kernel/pipe_transport.mli" {"F:S412T1775127195.73"}
+  "lib/async_rpc_kernel/protocol.ml" {"F:S6215T1775127195.73"}
+  "lib/async_rpc_kernel/protocol_writer.ml" {"F:S3571T1775127195.73"}
+  "lib/async_rpc_kernel/protocol_writer.mli" {"F:S2209T1775127195.73"}
+  "lib/async_rpc_kernel/rpc.ml" {"F:S43362T1775127195.73"}
+  "lib/async_rpc_kernel/rpc.mli" {"F:S41439T1775127195.73"}
+  "lib/async_rpc_kernel/rpc_error.ml" {"F:S1403T1775127195.73"}
+  "lib/async_rpc_kernel/rpc_error.mli" {"F:S462T1775127195.73"}
+  "lib/async_rpc_kernel/rpc_metadata.ml" {"F:S359T1775127195.73"}
+  "lib/async_rpc_kernel/rpc_metadata.mli" {"F:S708T1775127195.73"}
+  "lib/async_rpc_kernel/rpc_result.ml" {"F:S1312T1775127195.73"}
+  "lib/async_rpc_kernel/rpc_result.mli" {"F:S547T1775127195.73"}
+  "lib/async_rpc_kernel/rpc_shapes.ml" {"F:S4124T1775127195.73"}
+  "lib/async_rpc_kernel/rpc_shapes.mli" {"F:S1561T1775127195.73"}
+  "lib/async_rpc_kernel/tracing_event.ml" {"F:S1338T1775127195.73"}
+  "lib/async_rpc_kernel/tracing_event.mli" {"F:S5461T1775127195.73"}
+  "lib/async_rpc_kernel/transport.ml" {"F:S4404T1775127195.73"}
+  "lib/async_rpc_kernel/transport.mli" {"F:S1879T1775127195.73"}
+  "lib/async_rpc_kernel/transport_intf.ml" {"F:S3477T1775127195.73"}
+  "lib/async_rpc_kernel/util.ml" {"F:S1372T1775127195.73"}
+  "lib/async_rpc_kernel/util.mli" {"F:S302T1775127195.73"}
+  "lib/async_rpc_kernel/versioned_rpc.ml" {"F:S51837T1775127195.73"}
+  "lib/async_rpc_kernel/versioned_rpc.mli" {"F:S42332T1775127195.73"}
+  "lib/async_rpc_kernel/writer_with_length.ml" {"F:S1380T1775127195.73"}
+  "lib/async_rpc_kernel/writer_with_length.mli" {"F:S1486T1775127195.73"}
+]

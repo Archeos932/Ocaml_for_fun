@@ -1,0 +1,22 @@
+opam-version: "2.0"
+added: [
+  "doc/ppx_optional" {"D"}
+  "doc/ppx_optional/CHANGES.md" {"F:S101T1775126868.05"}
+  "doc/ppx_optional/LICENSE.md" {"F:S1126T1775126868.05"}
+  "doc/ppx_optional/README.md" {"F:S1544T1775126868.05"}
+  "lib/ppx_optional" {"D"}
+  "lib/ppx_optional/META" {"F:S488T1775126868.04"}
+  "lib/ppx_optional/dune-package" {"F:S914T1775126868.04"}
+  "lib/ppx_optional/opam" {"F:S820T1775126868.04"}
+  "lib/ppx_optional/ppx.exe" {"F:S16056664T1775126868.05"}
+  "lib/ppx_optional/ppx_optional.a" {"F:S73784T1775126868.04"}
+  "lib/ppx_optional/ppx_optional.cma" {"F:S102119T1775126868.04"}
+  "lib/ppx_optional/ppx_optional.cmi" {"F:S197T1775126868.04"}
+  "lib/ppx_optional/ppx_optional.cmt" {"F:S265167T1775126868.04"}
+  "lib/ppx_optional/ppx_optional.cmti" {"F:S4164T1775126868.04"}
+  "lib/ppx_optional/ppx_optional.cmx" {"F:S11250T1775126868.04"}
+  "lib/ppx_optional/ppx_optional.cmxa" {"F:S8114T1775126868.04"}
+  "lib/ppx_optional/ppx_optional.cmxs" {"F:S101216T1775126868.05"}
+  "lib/ppx_optional/ppx_optional.ml" {"F:S24883T1775126868.04"}
+  "lib/ppx_optional/ppx_optional.mli" {"F:S0T1775126868.04"}
+]

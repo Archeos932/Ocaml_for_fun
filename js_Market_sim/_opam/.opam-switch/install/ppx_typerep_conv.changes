@@ -1,0 +1,21 @@
+opam-version: "2.0"
+added: [
+  "doc/ppx_typerep_conv" {"D"}
+  "doc/ppx_typerep_conv/CHANGES.md" {"F:S87T1775126866.28"}
+  "doc/ppx_typerep_conv/LICENSE.md" {"F:S1126T1775126866.28"}
+  "doc/ppx_typerep_conv/README.md" {"F:S2298T1775126866.28"}
+  "lib/ppx_typerep_conv" {"D"}
+  "lib/ppx_typerep_conv/META" {"F:S683T1775126866.28"}
+  "lib/ppx_typerep_conv/dune-package" {"F:S1013T1775126866.28"}
+  "lib/ppx_typerep_conv/opam" {"F:S800T1775126866.28"}
+  "lib/ppx_typerep_conv/ppx_typerep_conv.a" {"F:S130256T1775126866.28"}
+  "lib/ppx_typerep_conv/ppx_typerep_conv.cma" {"F:S186772T1775126866.28"}
+  "lib/ppx_typerep_conv/ppx_typerep_conv.cmi" {"F:S3587T1775126866.28"}
+  "lib/ppx_typerep_conv/ppx_typerep_conv.cmt" {"F:S465720T1775126866.28"}
+  "lib/ppx_typerep_conv/ppx_typerep_conv.cmti" {"F:S11120T1775126866.28"}
+  "lib/ppx_typerep_conv/ppx_typerep_conv.cmx" {"F:S28185T1775126866.28"}
+  "lib/ppx_typerep_conv/ppx_typerep_conv.cmxa" {"F:S7456T1775126866.28"}
+  "lib/ppx_typerep_conv/ppx_typerep_conv.cmxs" {"F:S144872T1775126866.28"}
+  "lib/ppx_typerep_conv/ppx_typerep_conv.ml" {"F:S25413T1775126866.28"}
+  "lib/ppx_typerep_conv/ppx_typerep_conv.mli" {"F:S38T1775126866.28"}
+]

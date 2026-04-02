@@ -1,0 +1,272 @@
+opam-version: "2.0"
+added: [
+  "doc/async_log" {"D"}
+  "doc/async_log/CHANGES.md" {"F:S458T1775127205.33"}
+  "doc/async_log/LICENSE.md" {"F:S1126T1775127205.33"}
+  "lib/async_log" {"D"}
+  "lib/async_log/META" {"F:S1616T1775127205.31"}
+  "lib/async_log/assign_top_level_logs.ml" {"F:S1595T1775127205.31"}
+  "lib/async_log/assign_top_level_logs.mli" {"F:S271T1775127205.31"}
+  "lib/async_log/async_log.a" {"F:S202368T1775127205.31"}
+  "lib/async_log/async_log.cma" {"F:S499937T1775127205.31"}
+  "lib/async_log/async_log.cmi" {"F:S44895T1775127205.31"}
+  "lib/async_log/async_log.cmt" {"F:S57718T1775127205.31"}
+  "lib/async_log/async_log.cmti" {"F:S111495T1775127205.31"}
+  "lib/async_log/async_log.cmx" {"F:S33258T1775127205.31"}
+  "lib/async_log/async_log.cmxa" {"F:S266354T1775127205.31"}
+  "lib/async_log/async_log.cmxs" {"F:S449504T1775127205.33"}
+  "lib/async_log/async_log.ml" {"F:S396T1775127205.31"}
+  "lib/async_log/async_log.mli" {"F:S1348T1775127205.31"}
+  "lib/async_log/async_log__.cmi" {"F:S1389T1775127205.31"}
+  "lib/async_log/async_log__.cmt" {"F:S8020T1775127205.31"}
+  "lib/async_log/async_log__.cmx" {"F:S406T1775127205.31"}
+  "lib/async_log/async_log__.ml" {"F:S1009T1775127205.31"}
+  "lib/async_log/async_log__Assign_top_level_logs.cmi"
+    {"F:S271T1775127205.31"}
+  "lib/async_log/async_log__Assign_top_level_logs.cmt"
+    {"F:S53405T1775127205.31"}
+  "lib/async_log/async_log__Assign_top_level_logs.cmti"
+    {"F:S10429T1775127205.31"}
+  "lib/async_log/async_log__Assign_top_level_logs.cmx"
+    {"F:S24007T1775127205.31"}
+  "lib/async_log/async_log__Blocking.cmi" {"F:S27132T1775127205.31"}
+  "lib/async_log/async_log__Blocking.cmt" {"F:S85548T1775127205.31"}
+  "lib/async_log/async_log__Blocking.cmti" {"F:S75695T1775127205.31"}
+  "lib/async_log/async_log__Blocking.cmx" {"F:S27315T1775127205.31"}
+  "lib/async_log/async_log__Import.cmi" {"F:S23488T1775127205.31"}
+  "lib/async_log/async_log__Import.cmt" {"F:S63356T1775127205.31"}
+  "lib/async_log/async_log__Import.cmx" {"F:S23174T1775127205.31"}
+  "lib/async_log/async_log__Import_stable.cmi" {"F:S16029T1775127205.31"}
+  "lib/async_log/async_log__Import_stable.cmt" {"F:S45729T1775127205.31"}
+  "lib/async_log/async_log__Import_stable.cmx" {"F:S16088T1775127205.31"}
+  "lib/async_log/async_log__Log.cmi" {"F:S33311T1775127205.31"}
+  "lib/async_log/async_log__Log.cmt" {"F:S55967T1775127205.31"}
+  "lib/async_log/async_log__Log.cmti" {"F:S85555T1775127205.31"}
+  "lib/async_log/async_log__Log.cmx" {"F:S30143T1775127205.31"}
+  "lib/async_log/async_log__Message.cmi" {"F:S27148T1775127205.31"}
+  "lib/async_log/async_log__Message.cmt" {"F:S77278T1775127205.31"}
+  "lib/async_log/async_log__Message.cmti" {"F:S78666T1775127205.31"}
+  "lib/async_log/async_log__Message.cmx" {"F:S29127T1775127205.31"}
+  "lib/async_log/async_log__Message_reader.cmi" {"F:S24273T1775127205.31"}
+  "lib/async_log/async_log__Message_reader.cmt" {"F:S54591T1775127205.31"}
+  "lib/async_log/async_log__Message_reader.cmti" {"F:S61160T1775127205.31"}
+  "lib/async_log/async_log__Message_reader.cmx" {"F:S23899T1775127205.31"}
+  "lib/async_log/async_log__Output.cmi" {"F:S27567T1775127205.31"}
+  "lib/async_log/async_log__Output.cmt" {"F:S258004T1775127205.31"}
+  "lib/async_log/async_log__Output.cmti" {"F:S73143T1775127205.31"}
+  "lib/async_log/async_log__Output.cmx" {"F:S32331T1775127205.31"}
+  "lib/async_log/async_log__Rotation.cmi" {"F:S26127T1775127205.32"}
+  "lib/async_log/async_log__Rotation.cmt" {"F:S128654T1775127205.32"}
+  "lib/async_log/async_log__Rotation.cmti" {"F:S72674T1775127205.32"}
+  "lib/async_log/async_log__Rotation.cmx" {"F:S26924T1775127205.32"}
+  "lib/async_log/async_log__Rotation_id.cmi" {"F:S18279T1775127205.32"}
+  "lib/async_log/async_log__Rotation_id.cmt" {"F:S31998T1775127205.32"}
+  "lib/async_log/async_log__Rotation_id.cmti" {"F:S46616T1775127205.32"}
+  "lib/async_log/async_log__Rotation_id.cmx" {"F:S18337T1775127205.32"}
+  "lib/async_log/async_log__Rotation_id_intf.cmi" {"F:S19014T1775127205.32"}
+  "lib/async_log/async_log__Rotation_id_intf.cmt" {"F:S54683T1775127205.32"}
+  "lib/async_log/async_log__Rotation_id_intf.cmx" {"F:S18294T1775127205.32"}
+  "lib/async_log/blocking.ml" {"F:S2468T1775127205.32"}
+  "lib/async_log/blocking.mli" {"F:S1978T1775127205.32"}
+  "lib/async_log/dune-package" {"F:S14454T1775127205.32"}
+  "lib/async_log/import.ml" {"F:S287T1775127205.32"}
+  "lib/async_log/import_stable.ml" {"F:S48T1775127205.32"}
+  "lib/async_log/kernel" {"D"}
+  "lib/async_log/kernel/async_log_kernel.a" {"F:S478776T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel.cma" {"F:S918071T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel.cmi" {"F:S25410T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel.cmt" {"F:S40975T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel.cmti" {"F:S69576T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel.cmx" {"F:S23559T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel.cmxa" {"F:S345190T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel.cmxs" {"F:S721912T1775127205.33"}
+  "lib/async_log/kernel/async_log_kernel.ml" {"F:S353T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel.mli" {"F:S3224T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__.cmi" {"F:S2363T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__.cmt" {"F:S12198T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__.cmx" {"F:S728T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__.ml" {"F:S1848T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Buffered_output.cmi"
+    {"F:S20100T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Buffered_output.cmt"
+    {"F:S87287T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Buffered_output.cmti"
+    {"F:S51143T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Buffered_output.cmx"
+    {"F:S21997T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Global.cmi"
+    {"F:S26714T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Global.cmt"
+    {"F:S106094T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Global.cmti"
+    {"F:S61665T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Global.cmx"
+    {"F:S21672T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Global_intf.cmi"
+    {"F:S32610T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Global_intf.cmt"
+    {"F:S99312T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Global_intf.cmx"
+    {"F:S19395T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Import.cmi"
+    {"F:S7744T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Import.cmt"
+    {"F:S28447T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Import.cmx"
+    {"F:S7561T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Level.cmi"
+    {"F:S19164T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Level.cmt"
+    {"F:S124885T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Level.cmti"
+    {"F:S56854T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Level.cmx"
+    {"F:S18281T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Live_entry_registry.cmi"
+    {"F:S19777T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Live_entry_registry.cmt"
+    {"F:S56258T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Live_entry_registry.cmti"
+    {"F:S51958T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Live_entry_registry.cmx"
+    {"F:S20300T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Log.cmi" {"F:S29394T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Log.cmt"
+    {"F:S148214T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Log.cmti"
+    {"F:S102197T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Log.cmx" {"F:S28381T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Message.cmi"
+    {"F:S22848T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Message.cmt"
+    {"F:S230398T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Message.cmti"
+    {"F:S65689T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Message.cmx"
+    {"F:S27343T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Message_event.cmi"
+    {"F:S22503T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Message_event.cmt"
+    {"F:S136250T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Message_event.cmti"
+    {"F:S64124T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Message_event.cmx"
+    {"F:S25102T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Mutable_outputs.cmi"
+    {"F:S20072T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Mutable_outputs.cmt"
+    {"F:S76866T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Mutable_outputs.cmti"
+    {"F:S50252T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Mutable_outputs.cmx"
+    {"F:S23789T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__On_error.cmi"
+    {"F:S15370T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__On_error.cmt"
+    {"F:S35879T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__On_error.cmti"
+    {"F:S39383T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__On_error.cmx"
+    {"F:S18933T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Output.cmi"
+    {"F:S22052T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Output.cmt"
+    {"F:S73707T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Output.cmti"
+    {"F:S60651T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Output.cmx"
+    {"F:S23286T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Output_format.cmi"
+    {"F:S19396T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Output_format.cmt"
+    {"F:S149149T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Output_format.cmti"
+    {"F:S58429T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Output_format.cmx"
+    {"F:S18239T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Ppx_log_syntax.cmi"
+    {"F:S22288T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Ppx_log_syntax.cmt"
+    {"F:S45175T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Ppx_log_syntax.cmti"
+    {"F:S56388T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Ppx_log_syntax.cmx"
+    {"F:S20446T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Raw_log.cmi"
+    {"F:S22013T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Raw_log.cmt"
+    {"F:S140199T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Raw_log.cmti"
+    {"F:S58971T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Raw_log.cmx"
+    {"F:S71211T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Sexp_or_string.cmi"
+    {"F:S16782T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Sexp_or_string.cmt"
+    {"F:S89021T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Sexp_or_string.cmti"
+    {"F:S46246T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Sexp_or_string.cmx"
+    {"F:S17707T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Versioned.cmi"
+    {"F:S19377T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Versioned.cmt"
+    {"F:S134090T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Versioned.cmti"
+    {"F:S47113T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Versioned.cmx"
+    {"F:S22949T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Versioned_intf.cmi"
+    {"F:S20531T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Versioned_intf.cmt"
+    {"F:S65793T1775127205.32"}
+  "lib/async_log/kernel/async_log_kernel__Versioned_intf.cmx"
+    {"F:S15198T1775127205.32"}
+  "lib/async_log/kernel/buffered_output.ml" {"F:S3375T1775127205.32"}
+  "lib/async_log/kernel/buffered_output.mli" {"F:S616T1775127205.32"}
+  "lib/async_log/kernel/global.ml" {"F:S2727T1775127205.32"}
+  "lib/async_log/kernel/global.mli" {"F:S27T1775127205.32"}
+  "lib/async_log/kernel/global_intf.ml" {"F:S3752T1775127205.32"}
+  "lib/async_log/kernel/import.ml" {"F:S211T1775127205.32"}
+  "lib/async_log/kernel/level.ml" {"F:S1231T1775127205.32"}
+  "lib/async_log/kernel/level.mli" {"F:S680T1775127205.32"}
+  "lib/async_log/kernel/live_entry_registry.ml" {"F:S1981T1775127205.32"}
+  "lib/async_log/kernel/live_entry_registry.mli" {"F:S498T1775127205.32"}
+  "lib/async_log/kernel/log.ml" {"F:S5295T1775127205.32"}
+  "lib/async_log/kernel/log.mli" {"F:S7272T1775127205.32"}
+  "lib/async_log/kernel/message.ml" {"F:S3451T1775127205.32"}
+  "lib/async_log/kernel/message.mli" {"F:S819T1775127205.32"}
+  "lib/async_log/kernel/message_event.ml" {"F:S3233T1775127205.32"}
+  "lib/async_log/kernel/message_event.mli" {"F:S2380T1775127205.32"}
+  "lib/async_log/kernel/mutable_outputs.ml" {"F:S3688T1775127205.32"}
+  "lib/async_log/kernel/mutable_outputs.mli" {"F:S317T1775127205.33"}
+  "lib/async_log/kernel/on_error.ml" {"F:S373T1775127205.33"}
+  "lib/async_log/kernel/on_error.mli" {"F:S149T1775127205.33"}
+  "lib/async_log/kernel/output.ml" {"F:S3466T1775127205.33"}
+  "lib/async_log/kernel/output.mli" {"F:S1568T1775127205.33"}
+  "lib/async_log/kernel/output_format.ml" {"F:S472T1775127205.33"}
+  "lib/async_log/kernel/output_format.mli" {"F:S307T1775127205.33"}
+  "lib/async_log/kernel/ppx_log_syntax.ml" {"F:S727T1775127205.33"}
+  "lib/async_log/kernel/ppx_log_syntax.mli" {"F:S652T1775127205.33"}
+  "lib/async_log/kernel/raw_log.ml" {"F:S3529T1775127205.33"}
+  "lib/async_log/kernel/raw_log.mli" {"F:S991T1775127205.33"}
+  "lib/async_log/kernel/sexp_or_string.ml" {"F:S491T1775127205.33"}
+  "lib/async_log/kernel/sexp_or_string.mli" {"F:S231T1775127205.33"}
+  "lib/async_log/kernel/versioned.ml" {"F:S1311T1775127205.33"}
+  "lib/async_log/kernel/versioned.mli" {"F:S48T1775127205.33"}
+  "lib/async_log/kernel/versioned_intf.ml" {"F:S540T1775127205.33"}
+  "lib/async_log/log.ml" {"F:S133T1775127205.33"}
+  "lib/async_log/log.mli" {"F:S87T1775127205.33"}
+  "lib/async_log/message.ml" {"F:S679T1775127205.33"}
+  "lib/async_log/message.mli" {"F:S374T1775127205.33"}
+  "lib/async_log/message_reader.ml" {"F:S1155T1775127205.33"}
+  "lib/async_log/message_reader.mli" {"F:S746T1775127205.33"}
+  "lib/async_log/opam" {"F:S1076T1775127205.33"}
+  "lib/async_log/output.ml" {"F:S13560T1775127205.33"}
+  "lib/async_log/output.mli" {"F:S1324T1775127205.33"}
+  "lib/async_log/rotation.ml" {"F:S3160T1775127205.33"}
+  "lib/async_log/rotation.mli" {"F:S2806T1775127205.33"}
+  "lib/async_log/rotation_id.ml" {"F:S35T1775127205.33"}
+  "lib/async_log/rotation_id.mli" {"F:S37T1775127205.33"}
+  "lib/async_log/rotation_id_intf.ml" {"F:S463T1775127205.33"}
+]

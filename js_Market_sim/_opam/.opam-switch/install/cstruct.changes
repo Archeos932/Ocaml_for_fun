@@ -1,0 +1,30 @@
+opam-version: "2.0"
+added: [
+  "doc/cstruct" {"D"}
+  "doc/cstruct/CHANGES.md" {"F:S21322T1775127197.59"}
+  "doc/cstruct/LICENSE.md" {"F:S1457T1775127197.59"}
+  "doc/cstruct/README.md" {"F:S7135T1775127197.59"}
+  "lib/cstruct" {"D"}
+  "lib/cstruct/META" {"F:S200T1775127197.59"}
+  "lib/cstruct/cstruct.a" {"F:S166064T1775127197.59"}
+  "lib/cstruct/cstruct.cma" {"F:S222119T1775127197.59"}
+  "lib/cstruct/cstruct.cmi" {"F:S16994T1775127197.59"}
+  "lib/cstruct/cstruct.cmt" {"F:S507801T1775127197.59"}
+  "lib/cstruct/cstruct.cmti" {"F:S132376T1775127197.59"}
+  "lib/cstruct/cstruct.cmx" {"F:S22866T1775127197.59"}
+  "lib/cstruct/cstruct.cmxa" {"F:S1516T1775127197.59"}
+  "lib/cstruct/cstruct.cmxs" {"F:S168512T1775127197.59"}
+  "lib/cstruct/cstruct.js" {"F:S1958T1775127197.59"}
+  "lib/cstruct/cstruct.ml" {"F:S33093T1775127197.59"}
+  "lib/cstruct/cstruct.mli" {"F:S31840T1775127197.59"}
+  "lib/cstruct/cstruct_cap.cmi" {"F:S21373T1775127197.59"}
+  "lib/cstruct/cstruct_cap.cmt" {"F:S92465T1775127197.59"}
+  "lib/cstruct/cstruct_cap.cmti" {"F:S137921T1775127197.59"}
+  "lib/cstruct/cstruct_cap.cmx" {"F:S20132T1775127197.59"}
+  "lib/cstruct/cstruct_cap.ml" {"F:S2294T1775127197.59"}
+  "lib/cstruct/cstruct_cap.mli" {"F:S28068T1775127197.59"}
+  "lib/cstruct/dune-package" {"F:S1270T1775127197.59"}
+  "lib/cstruct/libcstruct_stubs.a" {"F:S6512T1775127197.59"}
+  "lib/cstruct/opam" {"F:S1180T1775127197.59"}
+  "lib/stublibs/dllcstruct_stubs.so" {"F:S51168T1775127197.59"}
+]

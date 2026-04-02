@@ -1,0 +1,21 @@
+opam-version: "2.0"
+added: [
+  "doc/ppx_string_conv" {"D"}
+  "doc/ppx_string_conv/LICENSE.md" {"F:S1120T1775126874.91"}
+  "doc/ppx_string_conv/README.md" {"F:S6362T1775126874.91"}
+  "lib/ppx_string_conv" {"D"}
+  "lib/ppx_string_conv/META" {"F:S820T1775126874.9"}
+  "lib/ppx_string_conv/dune-package" {"F:S1075T1775126874.9"}
+  "lib/ppx_string_conv/opam" {"F:S919T1775126874.9"}
+  "lib/ppx_string_conv/ppx.exe" {"F:S16164936T1775126874.91"}
+  "lib/ppx_string_conv/ppx_string_conv.a" {"F:S74904T1775126874.9"}
+  "lib/ppx_string_conv/ppx_string_conv.cma" {"F:S104551T1775126874.9"}
+  "lib/ppx_string_conv/ppx_string_conv.cmi" {"F:S203T1775126874.9"}
+  "lib/ppx_string_conv/ppx_string_conv.cmt" {"F:S280536T1775126874.9"}
+  "lib/ppx_string_conv/ppx_string_conv.cmti" {"F:S4682T1775126874.9"}
+  "lib/ppx_string_conv/ppx_string_conv.cmx" {"F:S11534T1775126874.9"}
+  "lib/ppx_string_conv/ppx_string_conv.cmxa" {"F:S8058T1775126874.9"}
+  "lib/ppx_string_conv/ppx_string_conv.cmxs" {"F:S102888T1775126874.91"}
+  "lib/ppx_string_conv/ppx_string_conv.ml" {"F:S18595T1775126874.9"}
+  "lib/ppx_string_conv/ppx_string_conv.mli" {"F:S26T1775126874.9"}
+]

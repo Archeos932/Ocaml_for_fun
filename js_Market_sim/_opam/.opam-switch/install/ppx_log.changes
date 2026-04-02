@@ -1,0 +1,218 @@
+opam-version: "2.0"
+added: [
+  "doc/ppx_log" {"D"}
+  "doc/ppx_log/CHANGES.md" {"F:S579T1775126879.75"}
+  "doc/ppx_log/LICENSE.md" {"F:S1126T1775126879.75"}
+  "lib/ppx_log" {"D"}
+  "lib/ppx_log/META" {"F:S3207T1775126879.72"}
+  "lib/ppx_log/dune-package" {"F:S12370T1775126879.72"}
+  "lib/ppx_log/kernel" {"D"}
+  "lib/ppx_log/kernel/extension_kind.ml" {"F:S1252T1775126879.72"}
+  "lib/ppx_log/kernel/extension_kind.mli" {"F:S432T1775126879.72"}
+  "lib/ppx_log/kernel/extension_payload.ml" {"F:S619T1775126879.72"}
+  "lib/ppx_log/kernel/extension_payload.mli" {"F:S660T1775126879.72"}
+  "lib/ppx_log/kernel/import.ml" {"F:S131T1775126879.72"}
+  "lib/ppx_log/kernel/log_kind.ml" {"F:S905T1775126879.72"}
+  "lib/ppx_log/kernel/log_kind.mli" {"F:S412T1775126879.72"}
+  "lib/ppx_log/kernel/log_statement.ml" {"F:S5821T1775126879.72"}
+  "lib/ppx_log/kernel/log_statement.mli" {"F:S187T1775126879.72"}
+  "lib/ppx_log/kernel/log_tag.ml" {"F:S4890T1775126879.72"}
+  "lib/ppx_log/kernel/log_tag.mli" {"F:S1051T1775126879.72"}
+  "lib/ppx_log/kernel/message_sexp.ml" {"F:S2572T1775126879.72"}
+  "lib/ppx_log/kernel/message_sexp.mli" {"F:S272T1775126879.72"}
+  "lib/ppx_log/kernel/optional_arg.ml" {"F:S449T1775126879.72"}
+  "lib/ppx_log/kernel/optional_arg.mli" {"F:S328T1775126879.72"}
+  "lib/ppx_log/kernel/parsed_extension.ml" {"F:S1027T1775126879.72"}
+  "lib/ppx_log/kernel/parsed_extension.mli" {"F:S279T1775126879.72"}
+  "lib/ppx_log/kernel/ppx.exe" {"F:S17715080T1775126879.74"}
+  "lib/ppx_log/kernel/ppx_log_kernel.a" {"F:S183064T1775126879.72"}
+  "lib/ppx_log/kernel/ppx_log_kernel.cma" {"F:S717747T1775126879.72"}
+  "lib/ppx_log/kernel/ppx_log_kernel.cmi" {"F:S4814T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel.cmt" {"F:S30045T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel.cmti" {"F:S15770T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel.cmx" {"F:S10017T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel.cmxa" {"F:S99027T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel.cmxs" {"F:S263696T1775126879.74"}
+  "lib/ppx_log/kernel/ppx_log_kernel.ml" {"F:S886T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel.mli" {"F:S129T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__.cmi" {"F:S1573T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__.cmt" {"F:S8485T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__.cmx" {"F:S489T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__.ml" {"F:S1172T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Extension_kind.cmi"
+    {"F:S9430T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Extension_kind.cmt"
+    {"F:S49534T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Extension_kind.cmti"
+    {"F:S29120T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Extension_kind.cmx"
+    {"F:S9002T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Extension_payload.cmi"
+    {"F:S8601T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Extension_payload.cmt"
+    {"F:S25107T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Extension_payload.cmti"
+    {"F:S24243T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Extension_payload.cmx"
+    {"F:S8374T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Import.cmi" {"F:S6719T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Import.cmt" {"F:S22154T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Import.cmx" {"F:S6736T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_kind.cmi" {"F:S9317T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_kind.cmt"
+    {"F:S41505T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_kind.cmti"
+    {"F:S28034T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_kind.cmx" {"F:S8747T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_statement.cmi"
+    {"F:S8648T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_statement.cmt"
+    {"F:S222342T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_statement.cmti"
+    {"F:S23834T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_statement.cmx"
+    {"F:S11473T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_tag.cmi" {"F:S9046T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_tag.cmt"
+    {"F:S164405T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_tag.cmti"
+    {"F:S27881T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Log_tag.cmx" {"F:S9764T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Message_sexp.cmi"
+    {"F:S8457T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Message_sexp.cmt"
+    {"F:S106568T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Message_sexp.cmti"
+    {"F:S23641T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Message_sexp.cmx"
+    {"F:S8819T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Optional_arg.cmi"
+    {"F:S8655T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Optional_arg.cmt"
+    {"F:S25671T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Optional_arg.cmti"
+    {"F:S24956T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Optional_arg.cmx"
+    {"F:S8405T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Parsed_extension.cmi"
+    {"F:S8678T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Parsed_extension.cmt"
+    {"F:S30862T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Parsed_extension.cmti"
+    {"F:S24466T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Parsed_extension.cmx"
+    {"F:S8513T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Ppxlib_with_sexp.cmi"
+    {"F:S296386T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Ppxlib_with_sexp.cmt"
+    {"F:S523017T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Ppxlib_with_sexp.cmti"
+    {"F:S809436T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Ppxlib_with_sexp.cmx"
+    {"F:S12421T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Tag_data.cmi" {"F:S8901T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Tag_data.cmt"
+    {"F:S104404T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Tag_data.cmti"
+    {"F:S26740T1775126879.73"}
+  "lib/ppx_log/kernel/ppx_log_kernel__Tag_data.cmx"
+    {"F:S10466T1775126879.73"}
+  "lib/ppx_log/kernel/ppxlib_with_sexp.ml" {"F:S672T1775126879.73"}
+  "lib/ppx_log/kernel/ppxlib_with_sexp.mli" {"F:S240T1775126879.73"}
+  "lib/ppx_log/kernel/tag_data.ml" {"F:S3186T1775126879.73"}
+  "lib/ppx_log/kernel/tag_data.mli" {"F:S900T1775126879.73"}
+  "lib/ppx_log/opam" {"F:S1400T1775126879.73"}
+  "lib/ppx_log/ppx.exe" {"F:S17715544T1775126879.75"}
+  "lib/ppx_log/ppx_log.a" {"F:S2080T1775126879.73"}
+  "lib/ppx_log/ppx_log.cma" {"F:S6418T1775126879.73"}
+  "lib/ppx_log/ppx_log.cmi" {"F:S187T1775126879.73"}
+  "lib/ppx_log/ppx_log.cmt" {"F:S9779T1775126879.73"}
+  "lib/ppx_log/ppx_log.cmti" {"F:S5159T1775126879.73"}
+  "lib/ppx_log/ppx_log.cmx" {"F:S4590T1775126879.73"}
+  "lib/ppx_log/ppx_log.cmxa" {"F:S4573T1775126879.73"}
+  "lib/ppx_log/ppx_log.cmxs" {"F:S50928T1775126879.75"}
+  "lib/ppx_log/ppx_log.ml" {"F:S23T1775126879.73"}
+  "lib/ppx_log/ppx_log.mli" {"F:S25T1775126879.73"}
+  "lib/ppx_log/syntax" {"D"}
+  "lib/ppx_log/syntax/ppx_log_syntax.a" {"F:S3856T1775126879.73"}
+  "lib/ppx_log/syntax/ppx_log_syntax.cma" {"F:S11381T1775126879.73"}
+  "lib/ppx_log/syntax/ppx_log_syntax.cmi" {"F:S9592T1775126879.73"}
+  "lib/ppx_log/syntax/ppx_log_syntax.cmt" {"F:S17801T1775126879.73"}
+  "lib/ppx_log/syntax/ppx_log_syntax.cmti" {"F:S26638T1775126879.73"}
+  "lib/ppx_log/syntax/ppx_log_syntax.cmx" {"F:S8050T1775126879.73"}
+  "lib/ppx_log/syntax/ppx_log_syntax.cmxa" {"F:S7438T1775126879.73"}
+  "lib/ppx_log/syntax/ppx_log_syntax.cmxs" {"F:S52064T1775126879.75"}
+  "lib/ppx_log/syntax/ppx_log_syntax.ml" {"F:S412T1775126879.73"}
+  "lib/ppx_log/syntax/ppx_log_syntax.mli" {"F:S1545T1775126879.73"}
+  "lib/ppx_log/types" {"D"}
+  "lib/ppx_log/types/import.ml" {"F:S14T1775126879.73"}
+  "lib/ppx_log/types/jsonaf.ml" {"F:S188T1775126879.73"}
+  "lib/ppx_log/types/jsonaf.mli" {"F:S188T1775126879.73"}
+  "lib/ppx_log/types/level.ml" {"F:S91T1775126879.73"}
+  "lib/ppx_log/types/level.mli" {"F:S112T1775126879.73"}
+  "lib/ppx_log/types/log_tag.ml" {"F:S576T1775126879.73"}
+  "lib/ppx_log/types/log_tag.mli" {"F:S300T1775126879.73"}
+  "lib/ppx_log/types/message_data.ml" {"F:S282T1775126879.73"}
+  "lib/ppx_log/types/message_data.mli" {"F:S182T1775126879.73"}
+  "lib/ppx_log/types/message_sexp.ml" {"F:S2021T1775126879.73"}
+  "lib/ppx_log/types/message_sexp.mli" {"F:S806T1775126879.73"}
+  "lib/ppx_log/types/message_source.ml" {"F:S1023T1775126879.73"}
+  "lib/ppx_log/types/message_source.mli" {"F:S348T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types.a" {"F:S105232T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types.cma" {"F:S169063T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types.cmi" {"F:S9027T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types.cmt" {"F:S31162T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types.cmx" {"F:S7237T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types.cmxa" {"F:S53594T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types.cmxs" {"F:S162864T1775126879.75"}
+  "lib/ppx_log/types/ppx_log_types.ml" {"F:S1307T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__.cmi" {"F:S1141T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__.cmt" {"F:S6671T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__.cmx" {"F:S357T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__.ml" {"F:S792T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__Import.cmi" {"F:S6716T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__Import.cmt" {"F:S20907T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__Import.cmx" {"F:S6734T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__Jsonaf.cmi" {"F:S6091T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__Jsonaf.cmt" {"F:S21839T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__Jsonaf.cmti" {"F:S18498T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__Jsonaf.cmx" {"F:S5654T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__Level.cmi" {"F:S5861T1775126879.73"}
+  "lib/ppx_log/types/ppx_log_types__Level.cmt" {"F:S15061T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Level.cmti" {"F:S17499T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Level.cmx" {"F:S5624T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Log_tag.cmi" {"F:S6803T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Log_tag.cmt" {"F:S26168T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Log_tag.cmti" {"F:S21654T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Log_tag.cmx" {"F:S6348T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_data.cmi"
+    {"F:S6306T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_data.cmt"
+    {"F:S19811T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_data.cmti"
+    {"F:S18872T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_data.cmx"
+    {"F:S5892T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_sexp.cmi"
+    {"F:S6949T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_sexp.cmt"
+    {"F:S57228T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_sexp.cmti"
+    {"F:S22760T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_sexp.cmx"
+    {"F:S8530T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_source.cmi"
+    {"F:S6540T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_source.cmt"
+    {"F:S51997T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_source.cmti"
+    {"F:S20210T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Message_source.cmx"
+    {"F:S6597T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Tag_data.cmi" {"F:S6924T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Tag_data.cmt" {"F:S102398T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Tag_data.cmti" {"F:S21954T1775126879.74"}
+  "lib/ppx_log/types/ppx_log_types__Tag_data.cmx" {"F:S10503T1775126879.74"}
+  "lib/ppx_log/types/tag_data.ml" {"F:S875T1775126879.74"}
+  "lib/ppx_log/types/tag_data.mli" {"F:S347T1775126879.74"}
+]
