@@ -23,7 +23,7 @@ let rec appartient x = function
 let rec inserer x = function
   | Leaf -> Node (Leaf, x, Leaf)
   | Node (g,v,d) -> if x = v then Node (g, v, d) else
-    if (x < v) then (inserer x g) else (inserer x d)
+    if (x < v) then Node (inserer x g, v,d ) else  (Node ( g, v, inserer x d ))
 
 
 let a = Leaf ;;
@@ -62,4 +62,29 @@ let rec eval_basique (a:int) = function
   | Add (x,y) -> (eval_basique a x) + (eval_basique a y)
   | Mul (x,y) -> (eval_basique a x) * (eval_basique a y)
 
-let () = print_int (eval_basique 0 a) ;;
+let rec eval (a : (string * int) list) = function
+  | Const n -> n
+  | Var n -> List.assoc n a
+  | Neg e -> -1 * (eval a e)
+  | Add (x,y) -> (eval a x) + (eval a y)
+  | Mul (x,y) -> (eval a x) * (eval a y)
+;;
+print_int (eval [("x", 3)] a) ;;
+
+
+let rec simplifier = function
+  | Add (Const 0, e) | Add (e, Const 0) -> simplifier e
+  | Mul (Const 0, e) | Mul (e, Const 0) -> Const 0
+  | Mul (Const 1, e) | Mul (e, Const 1) -> simplifier e
+  | Neg (Neg e) -> ( simplifier e)
+  | Add (a,b) -> Add (simplifier a, simplifier b)
+  | Mul (a,b) -> Mul (simplifier a, simplifier b)
+  | Neg e -> Neg (simplifier e)
+  | e -> e
+
+(*
+let () =
+  let e = Mul (Add (Var "x", Const 0), Const 1) in
+  print_endline (to_string (simplifier e))
+  (* "x" *)
+*)
