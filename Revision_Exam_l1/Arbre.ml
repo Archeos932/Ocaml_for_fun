@@ -6,6 +6,10 @@ let rec count_leaves = function
   | Leaf _ -> 1
   | Node  (g,v,d) -> (count_leaves g ) + (count_leaves d)
 
+let rec max_leaf = function
+  | Leaf n -> n
+| Node (g,v,d) -> max (max_leaf g) (max_leaf d)
+
 let rec hauteur = function
   | Leaf _ -> 0
   | Node (g,v,d) -> max (1 + hauteur g) (1 + hauteur d)
